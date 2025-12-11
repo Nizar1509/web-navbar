@@ -1,0 +1,78 @@
+.Navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	background: grey;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 25px;
+	box-sizing: border-box;
+	z-index: 1000;
+}
+
+.nav-links{
+	list-style: none;
+	display: flex;
+	gap: 25px;
+}
+.nav-links li a {
+	color: #ddd;
+	text-decoration: none;
+	font-size: 16px;
+	transition: 0.3s;
+	
+	/* menambahkan background link di nav */
+	background-color: white;
+	padding: 10px 20px;
+	color: black;
+	border-radius: 20px;
+}
+
+.nav-links li a:hover {
+	background-color: black;
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: blue;
+	font-weight: bold;
+}
+
+.content {
+	padding: 80px 20px;
+	/* background-color: brown; */
+	background:linear-gradient(135deg, #6a5af9, #5AC8FA);
+	color: white;
+	text-align: center;
+}
+
+.logo {
+	background-color: white;
+	color: black;
+	border-radius:  50%;
+	font-weight: bold;
+	font-size: 21;
+	text-shadow: 0 0 7px #fff, 0 0 21px #ff00de;
+	padding: 10px;
+} 
+  7. Gaya Tombol Aksi di bawah */
+.action-btn {
+    text-align: center;
+    margin-top: -50px; /* Menyesuaikan posisi */
+    padding-bottom: 50px;
+    background-color: #ecf0f1;
+}
+
+.action-btn a {
+    text-decoration: none;
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.action-btn a:hover {
+    background-color: #1abc9c;
+}
